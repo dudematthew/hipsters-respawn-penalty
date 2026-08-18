@@ -12,7 +12,7 @@ Derived from Hoaug's Respawn Penalty (MIT, Trần Kính Hoàng / Hoaug).
 - **Death zone** (60 blocks): extra potions and weaker attacks if you rush the corpse. Leave the area and those extra effects drop.
 - **Sanctuary**: if you die within 20 blocks of where you respawn, a short no-damage window so you can flee.
 - **Fraying**: while penalized, held and worn gear wears out faster, including on the walk home. Sleep/day recovery leaves Fraying I for 3 minutes. The flask does not.
-- **Keep inventory stays on.** This is not a loot-drop mod.
+- **Keep inventory suggested.** The mod is designed for it.
 
 Clients need the mod installed for Fraying's red tint. The durability math still runs on the server.
 
