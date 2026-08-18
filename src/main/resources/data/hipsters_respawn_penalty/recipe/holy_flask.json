@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "X": {
+      "item": "minecraft:experience_bottle"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    "GGG",
+    "GXG",
+    "GDG"
+  ],
+  "result": {
+    "count": 1,
+    "id": "hipsters_respawn_penalty:holy_flask"
+  }
+}

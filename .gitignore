@@ -1,0 +1,39 @@
+# gradle
+.gradle/
+build/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+out/
+bin/
+classes/
+
+# Loom / Minecraft
+run/
+logs/
+crash-reports/
+saves/
+world/
+world_nether/
+world_the_end/
+
+# Local junk
+backups/
+*.log
+*.class
+*.hprof
+hs_err_pid*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
+
+# Jars except the Gradle wrapper
+*.jar
+!gradle/wrapper/gradle-wrapper.jar

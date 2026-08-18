@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "hipsters_respawn_penalty",
+  "version": "${version}",
+  "name": "Hipster's Respawn Penalty",
+  "description": "Dying has a cost: you feel weaker, your gear is fried, and you can't go back to where you died so easily anymore. Get a nice sleep and regroup. Or craft a Holy Flask. That works too. Derived from Hoaug's Respawn Penalty.",
+  "authors": [
+    "dudematthew"
+  ],
+  "contributors": [
+    "Hoaug"
+  ],
+  "license": "MIT",
+  "icon": "assets/hipsters_respawn_penalty/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.hipster.respawnpenalty.HipstersRespawnPenalty"
+    ],
+    "modmenu": [
+      "com.hipster.respawnpenalty.client.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "hipsters_respawn_penalty.mixins.json",
+    "hipsters_respawn_penalty.client.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*",
+    "cloth-config": ">=15.0.0"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}

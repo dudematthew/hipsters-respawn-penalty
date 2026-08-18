@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "hipsters_respawn_penalty:item/holy_flask"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.hipster.respawnpenalty.mixin.client",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ItemRendererMixin",
+    "ArmorFeatureRendererMixin",
+    "BufferBuilderStorageMixin",
+    "RenderLayerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
