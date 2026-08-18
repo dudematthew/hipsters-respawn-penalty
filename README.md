@@ -24,7 +24,6 @@ Clients need the mod installed for Fraying's red tint. The durability math still
 - Fabric Loader `>= 0.19.2`
 - Fabric API
 - Java `21`
-- Cloth Config (bundled)
 - Mod Menu (optional, for the in-game config button)
 
 ---
